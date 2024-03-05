@@ -130,21 +130,24 @@
 //==================Order summery=============
 .commerce-checkout-flow {
   .form-type-radio {
-    input{
+    input {
       width: auto;
     }
+
     label {
       text-transform: uppercase;
       font-size: 16px;
       color: $black;
     }
   }
-  input{
+
+  input {
     width: 100%;
     color: $black
   }
-  .form-type-checkbox{
-    input{
+
+  .form-type-checkbox {
+    input {
       width: auto;
     }
   }
@@ -172,7 +175,8 @@
   .layout-region-checkout {
     &-main {
       width: calc(100% - 350px - 30px);
-      .address-book-edit-button{
+
+      .address-book-edit-button {
         width: 100%;
         margin: 0;
       }
@@ -182,32 +186,159 @@
       width: 350px;
       margin-bottom: $gutter;
       margin-left: $gutter;
-      h3{
+
+      h3 {
         margin-top: 15px;
         margin-bottom: $gutterS;
         color: $blue;
       }
-      .views-row{
+
+      .views-row {
         display: flex;
         justify-content: flex-end;
-        .views-field-total-price__number{
+
+        .views-field-total-price__number {
           width: 100px;
           margin-left: 10px;
           margin-right: 6px;
         }
       }
-      .view-footer{
+
+      .view-footer {
         margin-top: 10px;
       }
     }
 
-    &-footer{
-      input{
+    &-footer {
+      input {
         width: auto;
       }
-      .link--previous{
+
+      .link--previous {
         margin-left: $gutter;
       }
     }
+  }
+}
+
+
+//==========Season ticket====================
+.commerce--season-ticket-full {
+  .field--name-field-image {
+    float: left;
+    width: calc(50% - 15px);
+    margin-bottom: $gutterM;
+  }
+
+  .field--type-commerce-price {
+    float: right;
+    width: calc(50% - 15px);
+    display: flex;
+
+    .field__label {
+      color: $blue;
+      margin-right: $gutter;
+    }
+  }
+
+  .field--name-variations {
+    float: right;
+    width: calc(50% - 15px);
+
+  }
+
+  .field--name-body {
+    clear: both;
+  }
+}
+
+
+//===========Clothes=================
+
+.commerce--clothes-full {
+  .layout__region{
+    &--first{
+      .field--name-field-images {
+        display: grid;
+        grid-gap: $gutterM;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: $gutter;
+      }
+    }
+
+    &--second{
+      margin-bottom: $gutter;
+      .field--name-sku{
+        color:$blue;
+        font-size: 24px;
+      }
+      .field--name-purchased-entity{
+        .form-type-select{
+          display: flex;
+        }
+        label{
+          color:$blue;
+        }
+      }
+      .field--name-field-color{
+        line-height: 0;
+      }
+      .field--widget-commerce-quantity{
+        color: $blue;
+        input{
+          color: $black;
+          background-color: #ffffff;
+          border: 1px solid #4c84be;
+          border-radius: 5px;
+          text-align: center;
+          padding: 5px 10px;
+          width: 60px;
+        }
+      }
+
+      .field--name-price{
+        .field__label{
+          color: $blue;
+        }
+        margin-bottom: $gutterM;
+      }
+
+      .field--name-field-discount,
+      .field--name-field-collection,
+      .field--name-field-for-who,
+      .field--name-field-clothes,
+      .field--name-field-cover{
+        display: flex;
+        align-items: center;
+        margin-bottom: $gutterS;
+        .field__label{
+          color: $blue;
+          font-weight: normal;
+          margin-right: $gutterS;
+          position: relative;
+          &:before{
+            position: absolute;
+            content: ":";
+            right: -6px;
+            top: calc(50% - 12px);
+          }
+        }
+        .field__item{
+          font-size: 14px;
+          a{
+            color: $black;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+
+//============Product all===============
+.view-product-all{
+  .field--name-price{
+    display: none;
   }
 }

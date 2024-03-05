@@ -18,6 +18,9 @@
 
 .grid-view-2-col{
   .view-content{
+    .field--name-title{
+      text-align: center;
+    }
     display: grid;
     grid-gap: $gutterM;
     grid-template-columns: repeat(2, 1fr);

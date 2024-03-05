@@ -21,5 +21,15 @@ form fieldset {
 form fieldset .fieldset-wrapper {
   color: #373737;
 }
+form .form-type-select label {
+  display: block;
+}
+form select {
+  background-color: #ffffff;
+  border: 1px solid #4c84be;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px;
+}
 
 /*# sourceMappingURL=form.css.map */

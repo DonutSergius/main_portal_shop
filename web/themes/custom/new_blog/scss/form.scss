@@ -24,4 +24,17 @@ form{
       color: $black
     }
   }
+
+  .form-type-select{
+    label{
+      display: block;
+    }
+  }
+  select{
+    background-color: $white;
+    border: 1px solid $blue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+  }
 }

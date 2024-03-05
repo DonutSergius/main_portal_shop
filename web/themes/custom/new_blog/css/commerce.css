@@ -159,4 +159,114 @@
   margin-left: 30px;
 }
 
+.commerce--season-ticket-full .field--name-field-image {
+  float: left;
+  width: calc(50% - 15px);
+  margin-bottom: 20px;
+}
+.commerce--season-ticket-full .field--type-commerce-price {
+  float: right;
+  width: calc(50% - 15px);
+  display: flex;
+}
+.commerce--season-ticket-full .field--type-commerce-price .field__label {
+  color: #4c84be;
+  margin-right: 30px;
+}
+.commerce--season-ticket-full .field--name-variations {
+  float: right;
+  width: calc(50% - 15px);
+}
+.commerce--season-ticket-full .field--name-body {
+  clear: both;
+}
+
+.commerce--clothes-full .layout__region--first .field--name-field-images {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 30px;
+}
+.commerce--clothes-full .layout__region--second {
+  margin-bottom: 30px;
+}
+.commerce--clothes-full .layout__region--second .field--name-sku {
+  color: #4c84be;
+  font-size: 24px;
+}
+.commerce--clothes-full .layout__region--second .field--name-purchased-entity .form-type-select {
+  display: flex;
+}
+.commerce--clothes-full .layout__region--second .field--name-purchased-entity label {
+  color: #4c84be;
+}
+.commerce--clothes-full .layout__region--second .field--name-field-color {
+  line-height: 0;
+}
+.commerce--clothes-full .layout__region--second .field--widget-commerce-quantity {
+  color: #4c84be;
+}
+.commerce--clothes-full .layout__region--second .field--widget-commerce-quantity input {
+  color: #373737;
+  background-color: #ffffff;
+  border: 1px solid #4c84be;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px;
+  width: 60px;
+}
+.commerce--clothes-full .layout__region--second .field--name-price {
+  margin-bottom: 20px;
+}
+.commerce--clothes-full .layout__region--second .field--name-price .field__label {
+  color: #4c84be;
+}
+.commerce--clothes-full .layout__region--second .field--name-field-discount,
+.commerce--clothes-full .layout__region--second .field--name-field-collection,
+.commerce--clothes-full .layout__region--second .field--name-field-for-who,
+.commerce--clothes-full .layout__region--second .field--name-field-clothes,
+.commerce--clothes-full .layout__region--second .field--name-field-cover {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.commerce--clothes-full .layout__region--second .field--name-field-discount .field__label,
+.commerce--clothes-full .layout__region--second .field--name-field-collection .field__label,
+.commerce--clothes-full .layout__region--second .field--name-field-for-who .field__label,
+.commerce--clothes-full .layout__region--second .field--name-field-clothes .field__label,
+.commerce--clothes-full .layout__region--second .field--name-field-cover .field__label {
+  color: #4c84be;
+  font-weight: normal;
+  margin-right: 10px;
+  position: relative;
+}
+.commerce--clothes-full .layout__region--second .field--name-field-discount .field__label:before,
+.commerce--clothes-full .layout__region--second .field--name-field-collection .field__label:before,
+.commerce--clothes-full .layout__region--second .field--name-field-for-who .field__label:before,
+.commerce--clothes-full .layout__region--second .field--name-field-clothes .field__label:before,
+.commerce--clothes-full .layout__region--second .field--name-field-cover .field__label:before {
+  position: absolute;
+  content: ":";
+  right: -6px;
+  top: calc(50% - 12px);
+}
+.commerce--clothes-full .layout__region--second .field--name-field-discount .field__item,
+.commerce--clothes-full .layout__region--second .field--name-field-collection .field__item,
+.commerce--clothes-full .layout__region--second .field--name-field-for-who .field__item,
+.commerce--clothes-full .layout__region--second .field--name-field-clothes .field__item,
+.commerce--clothes-full .layout__region--second .field--name-field-cover .field__item {
+  font-size: 14px;
+}
+.commerce--clothes-full .layout__region--second .field--name-field-discount .field__item a,
+.commerce--clothes-full .layout__region--second .field--name-field-collection .field__item a,
+.commerce--clothes-full .layout__region--second .field--name-field-for-who .field__item a,
+.commerce--clothes-full .layout__region--second .field--name-field-clothes .field__item a,
+.commerce--clothes-full .layout__region--second .field--name-field-cover .field__item a {
+  color: #373737;
+}
+
+.view-product-all .field--name-price {
+  display: none;
+}
+
 /*# sourceMappingURL=commerce.css.map */
