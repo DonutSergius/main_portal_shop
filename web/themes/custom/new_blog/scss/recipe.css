@@ -1,0 +1,78 @@
+.node--recipe .field__label {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.node--recipe-full .node__content {
+  display: flex;
+  flex-flow: row wrap;
+}
+.node--recipe-full .node__content > * {
+  width: 100%;
+}
+.node--recipe-full .node__content .field--name-field-time-cook, .node--recipe-full .node__content .field--name-field-difficulty {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.node--recipe-full .node__content .field--name-field-ingredients {
+  margin-bottom: 20px;
+}
+.node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item:last-child {
+  margin-bottom: 0;
+}
+.node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 6px;
+  border: 2px solid #828282;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item:hover:before {
+  border-color: #4c84be;
+  background-color: #4c84be;
+}
+.node--recipe .field--name-title {
+  display: block;
+  margin-bottom: 10px;
+}
+.node--recipe .field--name-title a {
+  text-decoration: none;
+  color: #828282;
+}
+.node--recipe-teaser .layout__region--content {
+  display: flex;
+  flex-flow: row wrap;
+}
+.node--recipe-teaser .layout__region--content > * {
+  width: 100%;
+}
+.node--recipe-teaser .layout__region--content > *:nth-child(2), .node--recipe-teaser .layout__region--content > *:nth-child(3) {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.node--recipe-block .layout__region--content {
+  position: relative;
+}
+.node--recipe-block .layout__region--content img {
+  border-radius: 10px;
+}
+.node--recipe-block .layout__region--content > div:last-child {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.node--recipe-block .layout__region--content > div:last-child a {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 0px 5px 2px rgb(150, 150, 150);
+}
+
+/*# sourceMappingURL=recipe.css.map */

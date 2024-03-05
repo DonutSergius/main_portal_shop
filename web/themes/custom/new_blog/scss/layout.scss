@@ -1,0 +1,25 @@
+@import "variable";
+
+.main-content{
+  display: flex;
+  max-width: $desktopLarge;
+  margin: 0 auto 0 auto ;
+  padding: $gutter 50px 0 50px;
+  border-top: 3px solid $gray;
+  main{
+    flex: 1;
+  }
+  aside{
+    max-width: 350px;
+    margin-left: $gutterM;
+    margin-right: $gutter;
+  }
+}
+
+.grid-view-2-col{
+  .view-content{
+    display: grid;
+    grid-gap: $gutterM;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

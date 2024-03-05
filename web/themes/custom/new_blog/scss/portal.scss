@@ -1,0 +1,56 @@
+@import "variable";
+
+.node--article {
+  .field--name-field {
+    margin-bottom: 20px;
+  }
+
+  .field--name-field-images {
+    display: grid;
+    grid-gap: $gutterM;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .field--name-field-category {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      margin: 0 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $gray;
+
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+
+  .field--name-field-image {
+    margin-bottom: 20px;
+
+    a {
+      display: block;
+      text-align: center;
+    }
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  &-teaser {
+    img {
+      height: 300px;
+      width: auto;
+    }
+    a{
+      color: $gray;
+      text-decoration: none;
+    }
+  }
+}

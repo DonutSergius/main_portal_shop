@@ -1,0 +1,28 @@
+.pager {
+  padding-bottom: 30px;
+}
+.pager .pager__items {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.pager .pager__items li {
+  list-style: none;
+}
+.pager .pager__item {
+  margin: 0 5px;
+}
+.pager .pager__item.is-active a, .pager .pager__item:hover a {
+  color: #4c84be;
+  border: 1px solid #4c84be;
+}
+.pager .pager__item a {
+  display: block;
+  color: #828282;
+  text-decoration: none;
+  padding: 3px 10px;
+  border: 1px solid #ffffff;
+}
+
+/*# sourceMappingURL=pager.css.map */

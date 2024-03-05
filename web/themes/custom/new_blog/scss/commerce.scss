@@ -1,0 +1,213 @@
+@import "variable";
+
+.commerce--recipe-full {
+  .layout--twocol-section {
+    flex-wrap: nowrap;
+
+    .layout__region--first {
+      margin-right: 15px;
+    }
+
+    .layout__region--second {
+      margin-left: 15px;
+    }
+  }
+
+  & > .layout {
+    margin-bottom: $gutter;
+  }
+
+  .field--name-price {
+    margin-top: $gutterM;
+
+    .field__label {
+      color: $blue;
+      padding-top: 2px;
+    }
+
+    .field__item {
+      font-size: 20px;
+    }
+  }
+}
+
+.view-product-recipe {
+  position: relative;
+
+  .views-row {
+    display: flex;
+
+    .commerce--recipe-teaser {
+      margin: 0 auto;
+
+      .field--name-variations {
+        position: absolute;
+        right: 0;
+        padding: 5px 15px;
+        background-color: $white;
+        color: $blue;
+        border: 1px solid $gray;
+        font-size: 20px;
+      }
+
+      .field--name-field-image {
+        a {
+          margin: 0 auto;
+          width: max-content;
+        }
+      }
+
+      margin-bottom: $gutterM;
+    }
+  }
+}
+
+
+//=========================Cart=============================
+
+.view-commerce-cart-form {
+  .views-view-table {
+    width: 100%;
+
+    .views-field-purchased-entity {
+      width: 500px;
+    }
+
+    thead {
+      border-bottom: 2px solid $blue;
+
+      th {
+        color: $blue;
+        padding: 10px 15px;
+      }
+    }
+
+    tbody {
+      td {
+        &:first-child {
+          text-align: left;
+          padding-right: 20px;
+        }
+
+        padding: 0 10px;
+        text-align: center;
+
+        input {
+          border-radius: 5px;
+
+          &[type ="submit"] {
+            border: 1px solid $blue;
+            background-color: $white;
+
+            &:hover {
+              background-color: $blue;
+              color: $white;
+            }
+          }
+        }
+
+      }
+
+      border-bottom: 2px solid $blue;
+    }
+
+    margin-bottom: 15px;
+  }
+
+  .form-actions {
+    text-align: center;
+  }
+}
+
+.field--name-total-price {
+  .order-total-line-label {
+    color: $blue;
+  }
+
+  padding: 0 15px;
+}
+
+//==================Order summery=============
+.commerce-checkout-flow {
+  .form-type-radio {
+    input{
+      width: auto;
+    }
+    label {
+      text-transform: uppercase;
+      font-size: 16px;
+      color: $black;
+    }
+  }
+  input{
+    width: 100%;
+    color: $black
+  }
+  .form-type-checkbox{
+    input{
+      width: auto;
+    }
+  }
+
+  .address-container-inline {
+    display: flex;
+    justify-content: space-between;
+
+    & > div {
+      width: calc(50% - 15px);
+      margin-right: 0;
+    }
+  }
+}
+
+
+.layout-checkout-form {
+  display: flex;
+  flex-flow: row wrap;
+
+  .form-actions {
+    text-align: center;
+  }
+
+  .layout-region-checkout {
+    &-main {
+      width: calc(100% - 350px - 30px);
+      .address-book-edit-button{
+        width: 100%;
+        margin: 0;
+      }
+    }
+
+    &-secondary {
+      width: 350px;
+      margin-bottom: $gutter;
+      margin-left: $gutter;
+      h3{
+        margin-top: 15px;
+        margin-bottom: $gutterS;
+        color: $blue;
+      }
+      .views-row{
+        display: flex;
+        justify-content: flex-end;
+        .views-field-total-price__number{
+          width: 100px;
+          margin-left: 10px;
+          margin-right: 6px;
+        }
+      }
+      .view-footer{
+        margin-top: 10px;
+      }
+    }
+
+    &-footer{
+      input{
+        width: auto;
+      }
+      .link--previous{
+        margin-left: $gutter;
+      }
+    }
+  }
+}

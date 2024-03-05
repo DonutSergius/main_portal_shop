@@ -1,0 +1,25 @@
+form input {
+  text-align: center;
+  padding: 5px 10px;
+}
+form .form-actions {
+  margin: 10px 0px;
+}
+form .form-actions input {
+  border: 1px solid #4c84be;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+form .form-actions input:hover {
+  background-color: #4c84be;
+  color: #ffffff;
+}
+form fieldset {
+  border-color: #4c84be;
+  color: #4c84be;
+}
+form fieldset .fieldset-wrapper {
+  color: #373737;
+}
+
+/*# sourceMappingURL=form.css.map */

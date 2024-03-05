@@ -1,0 +1,12 @@
+.view-article-also-read .view-content {
+  display: flex;
+  margin: 0 auto; }
+  .view-article-also-read .view-content .node__content {
+    width: 500px;
+    padding: 20px;
+    text-align: center; }
+    .view-article-also-read .view-content .node__content img {
+      height: 200px;
+      width: auto; }
+
+/*# sourceMappingURL=article.css.map */

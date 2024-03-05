@@ -1,0 +1,27 @@
+@import "variable";
+form{
+
+  input{
+    text-align: center;
+    padding: 5px 10px;
+  }
+  .form-actions{
+    margin: $gutterS 0px;
+    input{
+      border: 1px solid $blue;
+      border-radius: 5px;
+      background-color: $white;
+      &:hover{
+        background-color: $blue;
+        color: $white;
+      }
+    }
+  }
+  fieldset{
+    border-color: $blue;
+    color:$blue;
+    .fieldset-wrapper{
+      color: $black
+    }
+  }
+}

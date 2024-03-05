@@ -1,0 +1,162 @@
+.commerce--recipe-full .layout--twocol-section {
+  flex-wrap: nowrap;
+}
+.commerce--recipe-full .layout--twocol-section .layout__region--first {
+  margin-right: 15px;
+}
+.commerce--recipe-full .layout--twocol-section .layout__region--second {
+  margin-left: 15px;
+}
+.commerce--recipe-full > .layout {
+  margin-bottom: 30px;
+}
+.commerce--recipe-full .field--name-price {
+  margin-top: 20px;
+}
+.commerce--recipe-full .field--name-price .field__label {
+  color: #4c84be;
+  padding-top: 2px;
+}
+.commerce--recipe-full .field--name-price .field__item {
+  font-size: 20px;
+}
+
+.view-product-recipe {
+  position: relative;
+}
+.view-product-recipe .views-row {
+  display: flex;
+}
+.view-product-recipe .views-row .commerce--recipe-teaser {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.view-product-recipe .views-row .commerce--recipe-teaser .field--name-variations {
+  position: absolute;
+  right: 0;
+  padding: 5px 15px;
+  background-color: #ffffff;
+  color: #4c84be;
+  border: 1px solid #828282;
+  font-size: 20px;
+}
+.view-product-recipe .views-row .commerce--recipe-teaser .field--name-field-image a {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.view-commerce-cart-form .views-view-table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.view-commerce-cart-form .views-view-table .views-field-purchased-entity {
+  width: 500px;
+}
+.view-commerce-cart-form .views-view-table thead {
+  border-bottom: 2px solid #4c84be;
+}
+.view-commerce-cart-form .views-view-table thead th {
+  color: #4c84be;
+  padding: 10px 15px;
+}
+.view-commerce-cart-form .views-view-table tbody {
+  border-bottom: 2px solid #4c84be;
+}
+.view-commerce-cart-form .views-view-table tbody td {
+  padding: 0 10px;
+  text-align: center;
+}
+.view-commerce-cart-form .views-view-table tbody td:first-child {
+  text-align: left;
+  padding-right: 20px;
+}
+.view-commerce-cart-form .views-view-table tbody td input {
+  border-radius: 5px;
+}
+.view-commerce-cart-form .views-view-table tbody td input[type=submit] {
+  border: 1px solid #4c84be;
+  background-color: #ffffff;
+}
+.view-commerce-cart-form .views-view-table tbody td input[type=submit]:hover {
+  background-color: #4c84be;
+  color: #ffffff;
+}
+.view-commerce-cart-form .form-actions {
+  text-align: center;
+}
+
+.field--name-total-price {
+  padding: 0 15px;
+}
+.field--name-total-price .order-total-line-label {
+  color: #4c84be;
+}
+
+.commerce-checkout-flow .form-type-radio input {
+  width: auto;
+}
+.commerce-checkout-flow .form-type-radio label {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #373737;
+}
+.commerce-checkout-flow input {
+  width: 100%;
+  color: #373737;
+}
+.commerce-checkout-flow .form-type-checkbox input {
+  width: auto;
+}
+.commerce-checkout-flow .address-container-inline {
+  display: flex;
+  justify-content: space-between;
+}
+.commerce-checkout-flow .address-container-inline > div {
+  width: calc(50% - 15px);
+  margin-right: 0;
+}
+
+.layout-checkout-form {
+  display: flex;
+  flex-flow: row wrap;
+}
+.layout-checkout-form .form-actions {
+  text-align: center;
+}
+.layout-checkout-form .layout-region-checkout-main {
+  width: calc(100% - 350px - 30px);
+}
+.layout-checkout-form .layout-region-checkout-main .address-book-edit-button {
+  width: 100%;
+  margin: 0;
+}
+.layout-checkout-form .layout-region-checkout-secondary {
+  width: 350px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.layout-checkout-form .layout-region-checkout-secondary h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #4c84be;
+}
+.layout-checkout-form .layout-region-checkout-secondary .views-row {
+  display: flex;
+  justify-content: flex-end;
+}
+.layout-checkout-form .layout-region-checkout-secondary .views-row .views-field-total-price__number {
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 6px;
+}
+.layout-checkout-form .layout-region-checkout-secondary .view-footer {
+  margin-top: 10px;
+}
+.layout-checkout-form .layout-region-checkout-footer input {
+  width: auto;
+}
+.layout-checkout-form .layout-region-checkout-footer .link--previous {
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=commerce.css.map */

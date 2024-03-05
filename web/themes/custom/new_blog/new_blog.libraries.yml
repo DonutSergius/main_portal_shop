@@ -1,0 +1,23 @@
+global:
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap": { external: true }
+      css/element.css: { }
+    component:
+      css/header.css: { }
+      css/footer.css: { }
+      css/main-menu.css: { }
+      css/global.css: { }
+      css/region.css: { }
+      css/pager.css: { }
+      css/node.css: { }
+      css/recipe.css: { }
+      css/layout.css: { }
+      css/article.css: { }
+      css/commerce.css: { }
+      css/form.css: { }
+
+portal:
+  css:
+    component:
+      css/portal.css: { }

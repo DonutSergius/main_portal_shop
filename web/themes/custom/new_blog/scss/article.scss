@@ -1,0 +1,16 @@
+@import "variable";
+.view-article-also-read{
+ .view-content{
+   display: flex;
+   .node__content{
+     width: 500px;
+     padding: $gutterM;
+     text-align: center;
+     img{
+       height: 200px;
+       width: auto;
+     }
+   }
+   margin: 0 auto;
+ }
+}

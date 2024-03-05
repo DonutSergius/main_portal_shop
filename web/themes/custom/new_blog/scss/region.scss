@@ -1,0 +1,19 @@
+@import "variable";
+.region{
+  & > .block{
+    margin-bottom: $gutter;
+  }
+}
+.region-header{
+  max-width: $desktopLarge;
+  padding: $gutter 10px 0 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  & > nav{
+    flex: 1;
+    .menu{
+      justify-content: flex-end;
+    }
+  }
+}

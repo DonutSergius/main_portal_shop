@@ -1,0 +1,35 @@
+<div class="page">
+
+  <header role="banner">
+    {{ page.header }}
+  </header>
+
+  {{ page.primary_menu }}
+
+
+  <div class="main-content">
+    <main role="main">
+      {{ page.highlighted }}
+      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+      <div class="layout-content">
+        {{ page.content }}
+      </div>{# /.layout-content #}
+
+    </main>
+
+    {% if page.sidebar %}
+      <aside class="sidebar" role="complementary">
+        {{ page.sidebar }}
+      </aside>
+    {% endif %}
+  </div>
+
+  <footer role="contentinfo">
+    {{ page.footer }}
+    <div class="copyright-site">
+      portalshop &copy; {{ "now"|date("Y") }}
+    </div>
+  </footer>
+
+</div>{# /.layout-container #}
