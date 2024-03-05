@@ -28,6 +28,7 @@
         "drupal/paragraphs": "^1.17",
         "drupal/pathauto": "^1.12",
         "drupal/redirect": "^1.9",
+        "drupal/search_api": "^1.31",
         "drupal/taxonomy_menu": "^3.6",
         "drush/drush": "^11.4"
     },
