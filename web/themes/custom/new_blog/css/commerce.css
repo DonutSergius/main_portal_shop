@@ -25,6 +25,7 @@
   position: relative;
 }
 .view-product-recipe .views-row {
+  width: 300px;
   display: flex;
 }
 .view-product-recipe .views-row .commerce--recipe-teaser {
@@ -39,6 +40,9 @@
   color: #4c84be;
   border: 1px solid #828282;
   font-size: 20px;
+}
+.view-product-recipe .views-row .commerce--recipe-teaser .field--name-field-image img {
+  width: 300px;
 }
 .view-product-recipe .views-row .commerce--recipe-teaser .field--name-field-image a {
   margin: 0 auto;
@@ -267,6 +271,38 @@
 
 .view-product-all .field--name-price {
   display: none;
+}
+
+.view-product-index {
+  position: relative;
+}
+.view-product-index .views-row {
+  display: flex;
+}
+.view-product-index .views-row .commerce--recipe-teaser {
+  margin: 0 auto;
+}
+.view-product-index .views-row .commerce--recipe-teaser .field--name-variations {
+  position: absolute;
+  right: 0;
+  padding: 5px 15px;
+  background-color: #ffffff;
+  color: #4c84be;
+  border: 1px solid #828282;
+  font-size: 20px;
+}
+.view-product-index .views-row .commerce--recipe-teaser .field--name-field-image img {
+  width: 100%;
+}
+.view-product-index .views-row .commerce--recipe-teaser .field--name-field-image a {
+  margin: 0 auto;
+}
+
+.cart--cart-block .cart-block--summary .cart-block--link__expand {
+  background-color: #4c84be;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=commerce.css.map */

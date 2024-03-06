@@ -17,6 +17,7 @@ global:
       css/commerce.css: { }
       css/form.css: { }
       css/view.css: { }
+      css/facets.css: { }
 
 portal:
   css:

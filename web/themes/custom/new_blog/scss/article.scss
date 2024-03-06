@@ -3,7 +3,7 @@
  .view-content{
    display: flex;
    .node__content{
-     width: 500px;
+     width: 100%;
      padding: $gutterM;
      text-align: center;
      img{
@@ -13,4 +13,29 @@
    }
    margin: 0 auto;
  }
+}
+
+.view-last-recipe, .view-last-article{
+  .views-row{
+    a{
+      width: max-content;
+    }
+    .layout__region--content{
+      display: flex;
+      .field--name-field-image{
+        width: max-content;
+        margin-right: 10px;
+      }
+    }
+    .field--name-title{
+      margin-bottom: 0;
+    }
+
+  }
+  img{
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
 }

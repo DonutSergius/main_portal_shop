@@ -1,0 +1,78 @@
+@import "variable";
+.block-facets-summary{
+  ul{
+    .facet-summary-item--clear{
+      border: 1px solid $blue;
+      border-radius: 5px;
+      padding: 10px 15px;
+      text-align: center;
+      margin-bottom: $gutterM;
+      color: $blue;
+    }
+    padding-left: 0;
+    text-decoration: none;
+    list-style: none;
+    li{
+      a{
+        color: $black;
+        &:hover{
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+
+#views-exposed-form-product-index-page-1{
+  .form--inline{
+    display: flex;
+    align-items: center;
+    input{
+      padding: 5px 15px;
+    }
+  }
+  margin-bottom: $gutterM;
+}
+
+.block-facets{
+  .facets-widget-checkbox{
+    ul{
+      padding-left: 0;
+    }
+    li{
+      color: $black;
+      list-style: none;
+      margin-bottom: $gutterS/2;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    input{
+      height: 15px;
+      width: 15px;
+      margin-right: $gutterS/2;
+    }
+    label{
+      cursor: pointer;
+      &:hover{
+        color: $blue;
+      }
+    }
+  }
+  .facets-widget-range_slider{
+    ul{
+      padding-left: 0;
+      color: $black;
+      list-style: none;
+    }
+  }
+}
+
+
+.facets-widget-range_slider{
+  min-width: 200px;
+  width: 100%;
+  .item-list__range_slider{
+    width: 100%;
+  }
+}

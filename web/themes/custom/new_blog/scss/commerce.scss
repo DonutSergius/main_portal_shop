@@ -35,6 +35,7 @@
   position: relative;
 
   .views-row {
+    width: 300px;
     display: flex;
 
     .commerce--recipe-teaser {
@@ -51,6 +52,10 @@
       }
 
       .field--name-field-image {
+        img {
+          width: 300px
+        }
+
         a {
           margin: 0 auto;
           width: max-content;
@@ -256,8 +261,8 @@
 //===========Clothes=================
 
 .commerce--clothes-full {
-  .layout__region{
-    &--first{
+  .layout__region {
+    &--first {
       .field--name-field-images {
         display: grid;
         grid-gap: $gutterM;
@@ -266,26 +271,32 @@
       }
     }
 
-    &--second{
+    &--second {
       margin-bottom: $gutter;
-      .field--name-sku{
-        color:$blue;
+
+      .field--name-sku {
+        color: $blue;
         font-size: 24px;
       }
-      .field--name-purchased-entity{
-        .form-type-select{
+
+      .field--name-purchased-entity {
+        .form-type-select {
           display: flex;
         }
-        label{
-          color:$blue;
+
+        label {
+          color: $blue;
         }
       }
-      .field--name-field-color{
+
+      .field--name-field-color {
         line-height: 0;
       }
-      .field--widget-commerce-quantity{
+
+      .field--widget-commerce-quantity {
         color: $blue;
-        input{
+
+        input {
           color: $black;
           background-color: #ffffff;
           border: 1px solid #4c84be;
@@ -296,10 +307,11 @@
         }
       }
 
-      .field--name-price{
-        .field__label{
+      .field--name-price {
+        .field__label {
           color: $blue;
         }
+
         margin-bottom: $gutterM;
       }
 
@@ -307,25 +319,29 @@
       .field--name-field-collection,
       .field--name-field-for-who,
       .field--name-field-clothes,
-      .field--name-field-cover{
+      .field--name-field-cover {
         display: flex;
         align-items: center;
         margin-bottom: $gutterS;
-        .field__label{
+
+        .field__label {
           color: $blue;
           font-weight: normal;
           margin-right: $gutterS;
           position: relative;
-          &:before{
+
+          &:before {
             position: absolute;
             content: ":";
             right: -6px;
             top: calc(50% - 12px);
           }
         }
-        .field__item{
+
+        .field__item {
           font-size: 14px;
-          a{
+
+          a {
             color: $black;
           }
         }
@@ -337,8 +353,55 @@
 
 
 //============Product all===============
-.view-product-all{
-  .field--name-price{
+.view-product-all {
+  .field--name-price {
     display: none;
+  }
+}
+
+//=============Product Index============
+.view-product-index {
+  position: relative;
+
+  .views-row {
+    display: flex;
+
+    .commerce--recipe-teaser {
+      margin: 0 auto;
+
+      .field--name-variations {
+        position: absolute;
+        right: 0;
+        padding: 5px 15px;
+        background-color: $white;
+        color: $blue;
+        border: 1px solid $gray;
+        font-size: 20px;
+      }
+
+      .field--name-field-image {
+        img {
+          width: 100%;
+        }
+
+        a {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+
+//===============Cart Block=============
+.cart--cart-block {
+  .cart-block--summary {
+    .cart-block--link__expand {
+      background-color: $blue;
+      border-radius: 5px;
+      padding: 5px 15px;
+
+      color: $white;
+    }
   }
 }

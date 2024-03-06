@@ -1,12 +1,35 @@
 .view-article-also-read .view-content {
   display: flex;
-  margin: 0 auto; }
-  .view-article-also-read .view-content .node__content {
-    width: 500px;
-    padding: 20px;
-    text-align: center; }
-    .view-article-also-read .view-content .node__content img {
-      height: 200px;
-      width: auto; }
+  margin: 0 auto;
+}
+.view-article-also-read .view-content .node__content {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.view-article-also-read .view-content .node__content img {
+  height: 200px;
+  width: auto;
+}
+
+.view-last-recipe .views-row a, .view-last-article .views-row a {
+  width: max-content;
+}
+.view-last-recipe .views-row .layout__region--content, .view-last-article .views-row .layout__region--content {
+  display: flex;
+}
+.view-last-recipe .views-row .layout__region--content .field--name-field-image, .view-last-article .views-row .layout__region--content .field--name-field-image {
+  width: max-content;
+  margin-right: 10px;
+}
+.view-last-recipe .views-row .field--name-title, .view-last-article .views-row .field--name-title {
+  margin-bottom: 0;
+}
+.view-last-recipe img, .view-last-article img {
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
 /*# sourceMappingURL=article.css.map */

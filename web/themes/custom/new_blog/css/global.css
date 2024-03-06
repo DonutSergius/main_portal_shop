@@ -1,19 +1,23 @@
 .page {
-  font: 18px/1.4 'Roboto', sans-serif;
-  color: #373737; }
+  font: 18px/1.4 "Roboto", sans-serif;
+  color: #373737;
+}
 
 main {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 10px; }
+  padding: 0 10px;
+}
 
 .page-title {
   margin: 0 auto;
   text-align: center;
-  max-width: 1160px; }
+  max-width: 1160px;
+}
 
 a {
   text-decoration: none;
-  color: #828282; }
+  color: #828282;
+}
 
 /*# sourceMappingURL=global.css.map */

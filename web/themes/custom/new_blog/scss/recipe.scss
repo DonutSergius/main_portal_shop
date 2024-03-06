@@ -62,6 +62,11 @@
     }
   }
   &-teaser{
+    max-width: 300px;
+    margin: 0 auto;
+    img{
+      border-radius: 10px;
+    }
     .layout__region--content{
       display: flex;
       flex-flow: row wrap;
